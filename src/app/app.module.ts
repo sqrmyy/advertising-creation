@@ -27,10 +27,16 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
+import { CampaignComponent } from './campaign/campaign.component';
+import { GroupComponent } from './group/group.component';
+import { CreativeComponent } from './creative/creative.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CampaignComponent,
+    GroupComponent,
+    CreativeComponent
   ],
   imports: [
     BrowserModule,
