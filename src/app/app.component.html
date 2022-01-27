@@ -21,6 +21,9 @@
 </nav>
 <div class="content">
   <p>{{message}}</p>
+  <button mat-raised-button (click)="login()">login</button>
+  <button mat-raised-button (click)="logout()">logout</button>
+  <p>USER: {{currentUser}}</p>
   <router-outlet></router-outlet>
   <mat-divider></mat-divider>
   <p>This is angular sample page</p>
